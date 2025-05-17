@@ -53,39 +53,39 @@ pip install -r requirements.txt
 
 ### DQN 算法
 
-- [DQN算法详解](dqn/README.md)
-- 步骤1: [Q-Network实现](dqn/01_q_network.py)
-- 步骤2: [经验回放缓冲区](dqn/02_replay_buffer.py)
-- 步骤3: [DQN智能体](dqn/03_dqn_agent.py)
-- 步骤4: [训练循环](dqn/04_train_dqn.py)
-- [完整DQN实现](dqn/dqn_complete.py)
+- DQN算法详解
+- 步骤1: Q-Network实现
+- 步骤2: 经验回放缓冲区
+- 步骤3: DQN智能体
+- 步骤4: 训练循环
+- 完整DQN实现
 
 ### PPO 算法
 
-- [PPO算法详解](ppo/README.md)
-- 步骤1: [Actor-Critic网络](ppo/01_actor_critic.py)
-- 步骤2: [PPO缓冲区与GAE计算](ppo/02_ppo_buffer.py)
-- 步骤3: [PPO智能体](ppo/03_ppo_agent.py)
-- 步骤4: [训练循环](ppo/04_train_ppo.py)
-- [完整PPO实现](ppo/ppo_complete.py)
+- PPO算法详解
+- 步骤1: Actor-Critic网络
+- 步骤2: PPO缓冲区与GAE计算
+- 步骤3: PPO智能体
+- 步骤4: 训练循环
+- 完整PPO实现
 
 ### 示例应用
 
-- [CartPole环境DQN实现](examples/cartpole_dqn.py)
-- [LunarLander环境PPO实现](examples/lunarlander_ppo.py)
+- CartPole环境DQN实现
+- LunarLander环境PPO实现
 
 ## 💡 学习路径
 
 ### 对于DQN
 
-1. 阅读[DQN算法详解](dqn/README.md)了解基本原理
+1. 阅读DQN算法详解了解基本原理
 2. 按顺序学习步骤1-4，确保理解每一步
 3. 查看完整实现以了解各部分如何协同工作
 4. 运行CartPole示例，体验算法效果
 
 ### 对于PPO
 
-1. 阅读[PPO算法详解](ppo/README.md)了解基本原理
+1. 阅读PPO算法详解了解基本原理
 2. 按顺序学习步骤1-4，确保理解每一步
 3. 查看完整实现以了解各部分如何协同工作
 4. 运行LunarLander示例，体验算法效果
@@ -135,7 +135,7 @@ python examples/lunarlander_ppo.py
 
 ## 📄 许可证
 
-本项目采用MIT许可证。详见 [LICENSE](LICENSE) 文件。
+本项目采用MIT许可证
 
 ## 🙏 致谢
 
