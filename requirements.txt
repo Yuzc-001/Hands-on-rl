@@ -1,0 +1,25 @@
+# 核心依赖
+numpy>=1.19.0
+torch>=1.8.0
+gym>=0.17.0
+gymnasium>=0.28.1
+# Gym环境
+gym[classic_control]>=0.17.0  # 包含CartPole等简单环境
+gym[box2d]>=0.17.0  # 包含LunarLander等环境
+
+# 可视化
+matplotlib>=3.3.0
+
+# 辅助工具
+tqdm>=4.50.0  # 进度条
+pandas>=1.1.0  # 数据处理（可选，用于分析结果）
+
+# 开发工具（可选）
+pytest>=6.0.0  # 测试
+black>=22.0.0  # 代码格式化
+isort>=5.0.0  # 导入排序
+pylint>=2.5.0  # 代码检查
+
+# 其他可能有用的工具
+wandb>=0.12.0  # 实验追踪（可选）
+tensorboard>=2.4.0  # 训练可视化（可选）
